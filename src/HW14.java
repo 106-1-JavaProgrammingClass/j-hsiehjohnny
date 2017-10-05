@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class HW7 {
+public class HW14 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        String str = scn.nextLine();
-        System.out.println(str.toLowerCase());
+        char v1 =scn.next().charAt(0);
+        System.out.println(Integer.toHexString((int)v1));
     }
 }
-

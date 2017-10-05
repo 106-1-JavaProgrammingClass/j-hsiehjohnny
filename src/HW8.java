@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class HW7 {
+public class HW8 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        String str = scn.nextLine();
-        System.out.println(str.toLowerCase());
+       float v1 = scn.nextInt();
+        System.out.println(Math.round(v1 * 0.26418f*10)/10f);
     }
 }
-

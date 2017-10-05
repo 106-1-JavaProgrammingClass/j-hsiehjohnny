@@ -1,15 +1,11 @@
 import java.util.Scanner;
 
-public class HW6 {
+public class HW15 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
-        char a = scn.next().charAt(0);
-        System.out.println(str.replace(a,'\n'));
-        System.out.println();
-    }
+        int v1 = Integer.valueOf(str,16);
+        System.out.println((char)v1);
+
 }
-
-
-
-
+}

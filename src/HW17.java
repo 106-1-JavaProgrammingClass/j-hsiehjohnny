@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class HW7 {
+public class HW17 {
     public static void main(String[] args) {
+
         Scanner scn = new Scanner(System.in);
-        String str = scn.nextLine();
-        System.out.println(str.toLowerCase());
+        int v1 = scn.nextInt();
+        System.out.println(Math.sqrt(v1)*10);
     }
 }
-
